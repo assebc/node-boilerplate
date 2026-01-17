@@ -1,0 +1,34 @@
+{
+  "name": "aiservice",
+  "version": "1.0.0",
+  "description": "Node Boiler Plate",
+  "license": "ISC",
+  "author": "assebc",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "rm -rf build/ && tsc",
+    "start": "node build/server.js",
+    "dev": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --config jest.config.ts --watch",
+    "test:coverage": "jest --config jest.config.ts --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.9",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.16",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3"
+  }
+}

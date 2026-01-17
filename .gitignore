@@ -1,0 +1,8 @@
+# Setup
+node_modules/
+
+# Tests
+coverage/
+
+# Environment
+.env
